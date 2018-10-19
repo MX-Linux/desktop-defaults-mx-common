@@ -1,4 +1,4 @@
-desktop-defaults-mx-common (0.7.17.9) mx; urgency=medium
+desktop-defaults-mx-common (18.9.01) mx; urgency=medium
 
   * split into xfce package and common package 
 
