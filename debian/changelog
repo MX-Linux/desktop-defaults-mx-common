@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (18.12.01) mx; urgency=medium
+
+  * keyrings configuration updated 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 01 Dec 2018 19:33:34 -0500
+
 desktop-defaults-mx-common (18.10.01) mx; urgency=medium
 
   * add mx-tools.desktop to mx-tools menu category
