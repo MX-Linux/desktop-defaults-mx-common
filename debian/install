@@ -14,3 +14,4 @@ rules.d/*               etc/udev/rules.d
 umountnfs-alternative.sh       etc/init.d
 kfd.conf                etc/modprobe.d
 early-bg                   	usr/local/bin
+mx-tools.directory      usr/share/desktop-directories

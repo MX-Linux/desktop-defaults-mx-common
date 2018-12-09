@@ -1,8 +1,8 @@
-desktop-defaults-mx-common (18.12.02) UNRELEASED; urgency=medium
+desktop-defaults-mx-common (18.12.03) mx; urgency=medium
 
-  * removed keyring configs 
+  * updated mx-tools menu entry translations 
 
- -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 01 Dec 2018 20:23:06 -0500
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 08 Dec 2018 20:29:48 -0500
 
 desktop-defaults-mx-common (18.12.01) mx; urgency=medium
 
