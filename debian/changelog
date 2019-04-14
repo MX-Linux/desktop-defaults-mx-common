@@ -1,4 +1,4 @@
-desktop-defaults-mx-common (18.04.01) mx; urgency=medium
+desktop-defaults-mx-common (19.04.01) mx; urgency=medium
 
   * added fbdev-blacklist-additional.conf 
 
