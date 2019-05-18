@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (19.05.01) mx; urgency=medium
+
+  * update translation on mx-tools whisker entry 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 18 May 2019 15:01:24 -0400
+
 desktop-defaults-mx-common (19.04.01) mx; urgency=medium
 
   * added fbdev-blacklist-additional.conf 
