@@ -16,3 +16,5 @@ umountnfs-alternative.sh       etc/init.d
 kfd.conf                etc/modprobe.d
 early-bg                   	usr/local/bin
 mx-tools.directory      usr/share/desktop-directories
+00-enable-autospawn.conf      etc/pulse/client.conf.d
+snaps/*		usr/share/applications
