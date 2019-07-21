@@ -1,3 +1,15 @@
+desktop-defaults-mx-common (19.06.02) mx; urgency=medium
+
+  * added snaps symlink in usr/applications
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 29 Jun 2019 20:21:11 -0400
+
+desktop-defaults-mx-common (19.06.01) mx; urgency=medium
+
+  * added pulseaudio config for sysvinit 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 08 Jun 2019 14:28:25 -0400
+
 desktop-defaults-mx-common (19.05.01) mx; urgency=medium
 
   * update translation on mx-tools whisker entry 
