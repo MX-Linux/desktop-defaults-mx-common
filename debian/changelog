@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (19.07.01) mx; urgency=medium
+
+  * added X-antiX to menus 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 31 Jul 2019 21:41:20 -0400
+
 desktop-defaults-mx-common (19.06.02) mx; urgency=medium
 
   * added snaps symlink in usr/applications
