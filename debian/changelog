@@ -1,3 +1,10 @@
+desktop-defaults-mx-common (19.08.01) mx; urgency=medium
+
+  * adjust synaptic (package manager) default settings
+  * fix typo in synaptics.conf (the touchpad settings)
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 31 Aug 2019 10:28:26 -0400
+
 desktop-defaults-mx-common (19.07.01) mx; urgency=medium
 
   * added X-antiX to menus 
