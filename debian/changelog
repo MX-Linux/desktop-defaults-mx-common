@@ -1,3 +1,15 @@
+desktop-defaults-mx-common (20.07.01) mx; urgency=medium
+
+  * update clock12or24 for KDE/plasma digitalclock 
+
+ -- Dolphin Oracle <dolphin@littlebyte>  Sun, 12 Jul 2020 15:44:34 -0400
+
+desktop-defaults-mx-common (20.06.01) mx; urgency=medium
+
+  * move clock12or24 to -common 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 08 Jun 2020 17:38:22 -0400
+
 desktop-defaults-mx-common (19.10.01) mx; urgency=medium
 
   * modify early-bg 
