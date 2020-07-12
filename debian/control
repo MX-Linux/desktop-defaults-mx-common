@@ -8,6 +8,6 @@ Homepage: http://antix.mepis.org
 
 Package: desktop-defaults-mx-common
 Architecture: all
-Breaks:  desktop-defaults-xfce-mx17 (<< 0.7.17.9)
-Replaces: desktop-defaults-xfce-mx17 (<< 0.7.17.9)
+Breaks:  desktop-defaults-mx-xfce-system (<< 20.06.01), desktop-defaults-xfce-mx17 (<< 0.7.17.9)
+Replaces: desktop-defaults-mx-xfce-system (<< 20.06.01), desktop-defaults-xfce-mx17 (<< 0.7.17.9)
 Description: common desktop defaults for MX-17.
