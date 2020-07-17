@@ -21,9 +21,9 @@ sed -i -r s/data0=%H/data0=%l/ /home/demo/.config/xfce4/panel/xfce4-orageclock-p
 sed -i -r s/data0=%H/data0=%l/ /etc/skel/.config/xfce4/panel/xfce4-orageclock-plugin-1.rc
 #these are the plasma clock settings
 if [ -e "/usr/bin/kwriteconfig5" ]; then
-	CONTAINMENT=$(grep -B 3 digitalclock /home/dolphin/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f3 | cut -d] -f1)
-	APPLET=$(grep -B 3 digitalclock /home/dolphin/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f5 | cut -d] -f1)
-	kwriteconfig5 --file /home/dolphin/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $CONTAINMENT --group Applets --group $APPLET --group Configuration --group Appearance --key use24hFormat 0
+	CONTAINMENT=$(grep -B 3 digitalclock /home/demo/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f3 | cut -d] -f1)
+	APPLET=$(grep -B 3 digitalclock /home/demo/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f5 | cut -d] -f1)
+	kwriteconfig5 --file /home/demo/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $CONTAINMENT --group Applets --group $APPLET --group Configuration --group Appearance --key use24hFormat 0
 fi
 
 #these next 4 lines are for the xfce4-clock plugin
