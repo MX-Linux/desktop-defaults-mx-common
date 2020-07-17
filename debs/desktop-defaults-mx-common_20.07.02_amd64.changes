@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sun, 12 Jul 2020 15:44:34 -0400
+Source: desktop-defaults-mx-common
+Binary: desktop-defaults-mx-common
+Architecture: source all
+Version: 20.07.02
+Distribution: mx
+Urgency: medium
+Maintainer: dolphinoracle <dolphinoracle@gmail.com>
+Changed-By: Dolphin Oracle <dolphin@littlebyte>
+Description:
+ desktop-defaults-mx-common - common desktop defaults for MX-17.
+Changes:
+ desktop-defaults-mx-common (20.07.02) mx; urgency=medium
+ .
+   * fix stupid bug in sed command
+  desktop-defaults-mx-common (20.07.01) mx; urgency=medium
+ .
+   * update clock12or24 for KDE/plasma digitalclock
+Checksums-Sha1:
+ cfd00659af729f42a8fbfb59d8db9b041c789abd 679 desktop-defaults-mx-common_20.07.02.dsc
+ bbe348abe73d33de42d5f6b60e5042d640983922 12844 desktop-defaults-mx-common_20.07.02.tar.xz
+ d7c3fe2ced38e59879678fc748bcaa3f79820c0b 14168 desktop-defaults-mx-common_20.07.02_all.deb
+ 06d27493fdf5c7619e623af75e7ed82fd884f56a 5096 desktop-defaults-mx-common_20.07.02_amd64.buildinfo
+Checksums-Sha256:
+ 779786052c180572ee58acf71fe524ac2ff94207558d99fb7d3cdd36f50979dc 679 desktop-defaults-mx-common_20.07.02.dsc
+ 2c7b6a953d6b8f0bf8c30b84af8881329615761411eb15e63569c1b69f7d8e07 12844 desktop-defaults-mx-common_20.07.02.tar.xz
+ 6686823b20246fe1a9851e60a68e340a97b246bf073add128b876a3b7b1c2586 14168 desktop-defaults-mx-common_20.07.02_all.deb
+ 07c5bb0ebb2df0ea07deb9bfa1f2adaa9acf630e2259d1b441b8f2618efaa9db 5096 desktop-defaults-mx-common_20.07.02_amd64.buildinfo
+Files:
+ ba2b829a53a0e1584c35bb3907b87f2e 679 system optional desktop-defaults-mx-common_20.07.02.dsc
+ 73b23b93b693e129673d6a3de96bf280 12844 system optional desktop-defaults-mx-common_20.07.02.tar.xz
+ 80887b230f74396a869d8ce84096b845 14168 system optional desktop-defaults-mx-common_20.07.02_all.deb
+ 076e0176d7985e5126192a171fc8aeea 5096 system optional desktop-defaults-mx-common_20.07.02_amd64.buildinfo
