@@ -24,6 +24,9 @@ if [ -e "/usr/bin/kwriteconfig5" ]; then
 	CONTAINMENT=$(grep -B 3 digitalclock /home/demo/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f3 | cut -d] -f1)
 	APPLET=$(grep -B 3 digitalclock /home/demo/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f5 | cut -d] -f1)
 	kwriteconfig5 --file /home/demo/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $CONTAINMENT --group Applets --group $APPLET --group Configuration --group Appearance --key use24hFormat 0
+	CONTAINMENT=$(grep -B 3 digitalclock /etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f3 | cut -d] -f1)
+	APPLET=$(grep -B 3 digitalclock /etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f5 | cut -d] -f1)
+	kwriteconfig5 --file /etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $CONTAINMENT --group Applets --group $APPLET --group Configuration --group Appearance --key use24hFormat 0
 fi
 
 #these next 4 lines are for the xfce4-clock plugin
@@ -53,6 +56,9 @@ case $LNG in
 		CONTAINMENT=$(grep -B 3 digitalclock /home/demo/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f3 | cut -d] -f1)
 		APPLET=$(grep -B 3 digitalclock /home/demo/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f5 | cut -d] -f1)
 		kwriteconfig5 --file /home/demo/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $CONTAINMENT --group Applets --group $APPLET --group Configuration --group Appearance --key use24hFormat 2
+		CONTAINMENT=$(grep -B 3 digitalclock /etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f3 | cut -d] -f1)
+		APPLET=$(grep -B 3 digitalclock /etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc|grep Contain|cut -d[ -f5 | cut -d] -f1)
+		kwriteconfig5 --file /etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $CONTAINMENT --group Applets --group $APPLET --group Configuration --group Appearance --key use24hFormat 2
 		fi
 	;;
 

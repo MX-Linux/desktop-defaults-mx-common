@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (20.07.03) mx; urgency=medium
+
+  * modification to clock12or24 to set skel too 
+
+ -- Dolphin Oracle <dolphin@littlebyte>  Thu, 23 Jul 2020 21:53:22 -0400
+
 desktop-defaults-mx-common (20.07.02) mx; urgency=medium
 
   * fix stupid bug in sed command 
