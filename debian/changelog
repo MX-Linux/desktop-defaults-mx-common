@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (21.02.01mx21) mx; urgency=medium
+
+  * initial bullseye build 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 11 Feb 2021 13:03:54 -0500
+
 desktop-defaults-mx-common (20.07.03) mx; urgency=medium
 
   * modification to clock12or24 to set skel too 
