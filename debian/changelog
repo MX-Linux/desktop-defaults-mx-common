@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (21.03.01mx21) mx; urgency=medium
+
+  * remove synaptics touchpad driver 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 01 Mar 2021 23:19:14 -0500
+
 desktop-defaults-mx-common (21.02.01mx21) mx; urgency=medium
 
   * initial bullseye build 
