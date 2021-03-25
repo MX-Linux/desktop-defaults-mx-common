@@ -2,7 +2,7 @@ skel/.[a-zA-Z]* 		etc/skel
 root/.[a-zA-Z]*            	root
 icons/*                    	usr/local/share/icons
 52-force-root-for-admin-auth.conf 	etc/polkit-1/localauthority.conf.d
-#X11/*                      	etc/X11
+X11/*                      	etc/X11
 azerty/*                   	usr/share/keymaps/i386/azerty
 qwerty/*                   	usr/share/keymaps/i386/qwerty
 qwertz/*                   	usr/share/keymaps/i386/qwertz
