@@ -12,7 +12,7 @@ fbdev-blacklist-nvidia.conf etc/modprobe.d
 synaptic.conf 			root/.synaptic 
 rules.d/*               etc/udev/rules.d
 20-thinkpad.conf 	usr/share/X11/xorg.conf.d
-#umountnfs-alternative.sh       etc/init.d
+umountnfs-alternative.sh       etc/init.d
 kfd.conf                etc/modprobe.d
 early-bg                   	usr/local/bin
 mx-tools.directory      usr/share/desktop-directories
