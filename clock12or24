@@ -44,7 +44,7 @@ if [ -e /etc/clock-ckd ]; then
 
 else
 
-  #touch /etc/clock-ckd
+  touch /etc/clock-ckd
 
 #the case statement parses the default locale file in /etc/default/locale for USA, Albania, Eygpt, Greece.  Others can be added
 
