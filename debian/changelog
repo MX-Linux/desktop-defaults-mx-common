@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (22.02.01mx21) mx; urgency=medium
+
+  * replace clock-chd file generate 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 11 Feb 2022 19:32:51 -0500
+
 desktop-defaults-mx-common (21.09.01mx21) mx; urgency=medium
 
   * add nfs umount alternative back in 
