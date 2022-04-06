@@ -41,7 +41,8 @@ fi
 
 if [ -e "/etc/skel/.config/tint2/tint2rc" ]; then
 	sed -i -r s/%H/%l/ /etc/skel/.config/tint2/tint2rc
-        sed -i -r s/%H/%l/ /home/demo/.config/tint2/tint2rc");
+        sed -i -r s/%H/%l/ /home/demo/.config/tint2/tint2rc
+fi
 
 #these next 4 lines are for the xfce4-clock plugin
 #sed -i -r s/%H/%l/ /home/demo/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
