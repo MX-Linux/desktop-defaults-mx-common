@@ -37,6 +37,12 @@ if [ -e "/usr/bin/kwriteconfig5" ]; then
 	kwriteconfig5 --file /etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $CONTAINMENT --group Applets --group $APPLET --group Configuration --group Appearance --key use24hFormat 0
 fi
 
+#these are tint2 panel
+
+if [ -e "/etc/skel/.config/tint2/tint2rc" ]; then
+	sed -i -r s/%H/%l/ /etc/skel/.config/tint2/tint2rc
+        sed -i -r s/%H/%l/ /home/demo/.config/tint2/tint2rc");
+
 #these next 4 lines are for the xfce4-clock plugin
 #sed -i -r s/%H/%l/ /home/demo/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 #sed -i -r s/%H/%l/ /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
