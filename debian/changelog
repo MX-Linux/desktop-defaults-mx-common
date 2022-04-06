@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (22.04.01mx21) mx; urgency=medium
+
+  * update clock12or24 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 06 Apr 2022 19:07:25 -0400
+
 desktop-defaults-mx-common (22.03.01mx21) mx; urgency=medium
 
   * move mx-tools menu definition to /etc/xdg 
