@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (22.12.01mx21) mx; urgency=medium
+
+  * remove ja_JP 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 04 Dec 2022 14:30:07 -0500
+
 desktop-defaults-mx-common (22.04.01mx21) mx; urgency=medium
 
   * update clock12or24 
