@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (23.01.01mx21) mx; urgency=medium
+
+  * update mx-tools.menu to make "Name" lowercase, improves menulibre 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 07 Jan 2023 13:26:47 -0500
+
 desktop-defaults-mx-common (22.12.01mx21) mx; urgency=medium
 
   * remove ja_JP 
