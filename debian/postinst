@@ -10,9 +10,11 @@ if [ -x /etc/init.d/umountnfs-alternative.sh ]; then
 fi
 
 ##fix mx-tools menu files (mx 21 and older)
-for i in "$(find /home/ -wholename "*.config/menus/applications-merged/mx-tools.menu")"; do 
-	sed -i 's/MX-Tools/mx-tools/' "$i"
-done
-
+FILES="$(find /home/ -true -wholename "*.config/menus/applications-merged/mx-tools.menu")"
+if [ -n "$FILES" ]; then
+		for i in "$FILES"; do 
+			sed -i 's/MX-Tools/mx-tools/' "$i"
+		done
+fi
 
 exit 0
