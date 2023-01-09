@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (23.01.04mx21) mx; urgency=medium
+
+  * revert mx-tools.menu changes
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 09 Jan 2023 06:39:57 -0500
+
 desktop-defaults-mx-common (23.01.03mx21) mx; urgency=medium
 
   * add double quoting
