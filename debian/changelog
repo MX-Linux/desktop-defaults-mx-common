@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (23.01.05mx21) mx; urgency=medium
+
+  * hide qpa.xcb message 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 14 Jan 2023 10:35:49 -0500
+
 desktop-defaults-mx-common (23.01.04mx21) mx; urgency=medium
 
   * revert mx-tools.menu changes
