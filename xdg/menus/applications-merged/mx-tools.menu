@@ -3,7 +3,7 @@
           <Menu>
             <Name>Applications</Name>
             <Menu>
-              <Name>MX-Tools</Name>
+              <Name>mx-tools</Name>
               <Directory>mx-tools.directory</Directory>
               <Include>
                 <Category>MX-Software</Category>
