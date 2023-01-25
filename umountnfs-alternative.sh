@@ -3,7 +3,7 @@
 # Provides:          umountnfs-alternative
 # Required-Start:
 # Required-Stop:     umountfs
-# Should-Stop:       $network $portmap nfs-common
+# Should-Stop:       $network $portmap nfs-common network-manager
 # Default-Start:
 # Default-Stop:      0 6
 # Short-Description: Unmount all network filesystems except the root fs.
