@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (23.01.05mx21) mx; urgency=medium
+
+  * add 58qxcb
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 25 Jan 2023 19:02:27 -0500
+
 desktop-defaults-mx-common (23.01.04mx21) mx; urgency=medium
 
   * revert mx-tools.menu changes
