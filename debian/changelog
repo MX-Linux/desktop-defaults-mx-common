@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (23.02.05mx23) ,x; urgency=medium
+
+  * update clock12or24 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 11 Feb 2023 09:23:02 -0500
+
 desktop-defaults-mx-common (23.01.05mx21) mx; urgency=medium
 
   * add 58qxcb
