@@ -1,4 +1,4 @@
-/etc#!/bin/bash
+#!/bin/bash
 
 #change orage clock preference to 12 hour in case of USA, Canada, Australia, New Zealand, Albania, Eygpt, Greece
 
