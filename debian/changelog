@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (23.02.08mx23) mx; urgency=medium
+
+  * fix typo in shebang, clock12or24
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 18 Feb 2023 10:57:05 -0500
+
 desktop-defaults-mx-common (23.02.07mx23) mx; urgency=medium
 
   * correct filename in clock12or24 
