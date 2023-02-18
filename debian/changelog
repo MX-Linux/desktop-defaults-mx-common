@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (23.02.07mx23) mx; urgency=medium
+
+  * correct filename in clock12or24 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 17 Feb 2023 20:00:40 -0500
+
 desktop-defaults-mx-common (23.02.06mx23) mx; urgency=medium
 
   * adjust clock12or24 again
