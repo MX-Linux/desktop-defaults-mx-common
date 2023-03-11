@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (23.03.01mx23) mx; urgency=medium
+
+  * add new menu icons 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 11 Mar 2023 18:47:25 -0500
+
 desktop-defaults-mx-common (23.02.08mx23) mx; urgency=medium
 
   * fix typo in shebang, clock12or24
