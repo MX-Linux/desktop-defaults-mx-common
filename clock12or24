@@ -44,11 +44,11 @@ if [ -e "/etc/skel/.config/tint2/tint2rc" ]; then
         sed -i -r s/%H/%l/ /home/demo/.config/tint2/tint2rc
 fi
 
-#these next 4 lines are for the xfce4-clock plugin
-#sed -i -r s/%H/%l/ /home/demo/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
-#sed -i -r s/%H/%l/ /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
-#sed -i -r s/%H/%l/ /usr/local/share/appdata/panels/horizontal/xfce4-panel.xml
-#sed -i -r s/%H/%l/ /usr/local/share/appdata/panels/vertical/xfce4-panel.xml
+#these next 2 lines are for the xfce4-clock plugin
+if [ -e "/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml" ]; then
+	sed -i -r s/%H/%l/ /home/demo/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+	sed -i -r s/%H/%l/ /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+fi
 
 }
 
