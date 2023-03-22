@@ -1,6 +1,7 @@
 desktop-defaults-mx-common (23.03.03mx23) mx; urgency=medium
 
   * update menu icon
+  * update clock12or24 to work with xfce clock plugin
 
  -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 22 Mar 2023 18:39:48 -0400
 
