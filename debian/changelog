@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (23.04.01mx23) mx; urgency=medium
+
+  * remove 52-force-root-for-admin-auth.conf (obsolete)
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 07 Apr 2023 19:54:37 -0400
+
 desktop-defaults-mx-common (23.03.03mx23) mx; urgency=medium
 
   * update menu icon
