@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (25.03.01mx25) mx; urgency=medium
+
+  * move synaptic settings to new location
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 27 Mar 2025 19:56:51 -0400
+
 desktop-defaults-mx-common (24.03.01mx23) mx; urgency=medium
 
   * update mx tools directory file translations 
