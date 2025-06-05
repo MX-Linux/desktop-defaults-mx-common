@@ -1,3 +1,10 @@
+desktop-defaults-mx-common (25.06.01mx25) mx; urgency=medium
+
+  * /usr/local to /usr
+  * change icon location 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 04 Jun 2025 22:07:36 -0400
+
 desktop-defaults-mx-common (25.03.01mx25) mx; urgency=medium
 
   * move synaptic settings to new location
