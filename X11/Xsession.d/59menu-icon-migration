@@ -1,0 +1,6 @@
+# onetime menu icon migration
+
+if [ ! -e "$HOME/.config/MX-Linux/menu-icon-migration" ]; then
+	touch "$HOME/.config/MX-Linux/menu-icon-migration"
+	find "$HOME/.config" -type f -exec grep -l '/usr/local/share/icons/mxfcelogo-rounded.png' {} + | sed -i 's;/usr/local/share/icons/mxfcelogo-rounded.png;/usr/share/icons/mxfcelogo-rounded.png;g'
+fi
