@@ -17,11 +17,4 @@ if [ -e /etc/lightdm/lightdm.conf ]; then
 	sed -i "s,usr/local/bin/early-bg,usr/bin/early-bg," /etc/lightdm/lightdm.conf	
 fi
 
-#leave a symlink to the menu icon if callout exists in home folder
-test=$(find /home/*/.config -type f -exec grep -l '/usr/local/share/icons/mxfcelogo-rounded.png' {} +)
-if [ -z "$test" ]; then
-	mkdir -p /usr/local/share/icons /usr/share/icons/mxfcelogo-rounded.png
-	ln -nfs /usr/share/icons/mxfcelogo-rounded.png /usr/local/share/icons/mxfcelogo-rounded.png
-fi
-
 exit 0
