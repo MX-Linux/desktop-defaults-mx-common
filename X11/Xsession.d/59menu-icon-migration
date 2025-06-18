@@ -5,6 +5,6 @@ if [ ! -e "$HOME/.config/MX-Linux/menu-icon-migration" ]; then
 	mkdir -p "$HOME/.config/MX-Linux/"
 	touch "$HOME/.config/MX-Linux/menu-icon-migration"
 	for i in $(find "$HOME/.config" -type f -exec grep -l '/usr/local/share/icons/mxfcelogo-rounded.png' {} +); do
-		sed 's;/usr/local/share/icons/mxfcelogo-rounded.png;/usr/share/icons/mxfcelogo-rounded.png;' "$i"
+		sed -i 's;/usr/local/share/icons/mxfcelogo-rounded.png;/usr/share/icons/mxfcelogo-rounded.png;' "$i"
 	done
 fi
