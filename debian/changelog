@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (25.06.03mx25) mx; urgency=medium
+
+  * actually change menu icon  
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 18 Jun 2025 18:48:06 -0400
+
 desktop-defaults-mx-common (25.06.02mx25) mx; urgency=medium
 
   * migrate menu icon in home folder, one time, on first login after update
