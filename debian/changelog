@@ -1,3 +1,10 @@
+desktop-defaults-mx-common (25.06.03mx26) mx; urgency=medium
+
+  * remove synaptic config
+  * prevents a conflict in synaptic postinstall  migration from earlier versions
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 26 Jun 2025 19:31:12 -0400
+
 desktop-defaults-mx-common (25.06.03mx25) mx; urgency=medium
 
   * actually change menu icon  
