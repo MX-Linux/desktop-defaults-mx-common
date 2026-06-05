@@ -4,7 +4,7 @@
 # Add Snap application commands and desktop launchers for future login sessions.
 #check existing of snap command on system as well
 
-if [ /proc/1/exe -ef /usr/lib/systemd/systemd ] && [ -x /usr/bin/snap ]; then 
+if [ -d /run/systemd/system ] && [ -x /usr/bin/snap ]; then
 	snap_bin_path="/snap/bin"
 	if [ -z "${PATH:-}" ]; then
 	    export PATH="${snap_bin_path}"
