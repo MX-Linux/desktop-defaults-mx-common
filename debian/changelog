@@ -1,3 +1,9 @@
+desktop-defaults-mx-common (26.7.01mx25) mx; urgency=medium
+
+  * update MX Tools menu to handle X-XDG compliant categories 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 13 Jul 2026 12:58:25 -0400
+
 desktop-defaults-mx-common (26.06.01mx25) mx; urgency=medium
 
   * add snaps paths on systems that install snaps
